@@ -121,6 +121,22 @@ Launch the Instance
 
   https://awsexam.us.cc
 
-#**Screenshot's**
+# SCREENSHOT'S
 
+#homepage
+<img width="1365" height="726" alt="Screenshot 2026-02-13 155718" src="https://github.com/user-attachments/assets/ebb41888-daf3-470e-bedc-3a86edc67e3f" />
 
+#Feedback or contact
+<img width="1357" height="726" alt="Screenshot 2026-02-13 155444" src="https://github.com/user-attachments/assets/174dc6eb-03ec-435a-8062-20a6f2ad34fb" />
+
+#Student Login
+<img width="1361" height="723" alt="Screenshot 2026-02-13 155506" src="https://github.com/user-attachments/assets/000af595-2bfc-4d58-8610-dc0849db7eaf" />
+
+#Student Register
+<img width="1362" height="727" alt="Screenshot 2026-02-13 155523" src="https://github.com/user-attachments/assets/246ec1f5-2e19-4916-a8e8-b058713389c1" />
+
+#Student Interface/Dashboard
+<img width="1362" height="733" alt="Screenshot 2026-02-13 155556" src="https://github.com/user-attachments/assets/41260b4f-9596-4513-b083-3fe49dba9514" />
+
+#Admin Login
+<img width="1364" height="726" alt="Screenshot 2026-02-13 155645" src="https://github.com/user-attachments/assets/6c42ec24-c463-461b-9a02-26a47eee2c82" />
