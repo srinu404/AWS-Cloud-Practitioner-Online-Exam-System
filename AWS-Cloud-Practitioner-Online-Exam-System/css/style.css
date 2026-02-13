@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #232f3e, #ff9900);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #ffffff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #232f3e;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Button container */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    background: #ff9900;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #232f3e;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e68a00;
+}
+
+.btn-cancel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background: #d3d3d3;
+    color: #232f3e;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-cancel:hover {
+    background: #bcbcbc;
+}
+
+.link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #232f3e;
+    font-weight: bold;
+}
+
+
+/* Search form layout */
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.search-box button {
+    flex: 1;
+    padding: 10px;
+    background: #ff9900;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #232f3e;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-box button:hover {
+    background: #e68a00;
+}
+
+/* Reset button style */
+.search-box a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #d3d3d3;
+    color: #232f3e;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.search-box a:hover {
+    background: #bcbcbc;
+}
+
+
+/* ===== FORM GROUP ===== */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* ===== LABEL ===== */
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #232f3e;
+    font-size: 14px;
+}
+
+/* ===== TEXTAREA STYLE ===== */
+textarea {
+    width: 100%;
+    min-height: 110px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    resize: vertical;
+    transition: 0.3s ease;
+    font-family: Arial, sans-serif;
+}
+
+/* Focus effect */
+textarea:focus {
+    border-color: #ff9900;
+    outline: none;
+    box-shadow: 0 0 6px rgba(255,153,0,0.4);
+}
+
+/* ===== SELECT STYLE ===== */
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background: #fff;
+    transition: 0.3s ease;
+}
+
+/* Focus effect */
+select:focus {
+    border-color: #ff9900;
+    outline: none;
+    box-shadow: 0 0 6px rgba(255,153,0,0.4);
+}
+
+
+/*================================= contact css =========================================*/
+
+/* ===== CONTACT PAGE WRAPPER ===== */
+.contact-box {
+    max-width: 650px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* ===== HEADING ===== */
+.contact-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #232f3e;
+}
+
+/* ===== DESCRIPTION LIST ===== */
+.contact-box ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.contact-box ul li {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+/* ===== FORM FIELDS ===== */
+.contact-box input[type="text"],
+.contact-box input[type="email"],
+.contact-box textarea,
+.contact-box input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.3s ease;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== TEXTAREA ===== */
+.contact-box textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* ===== FOCUS EFFECT ===== */
+.contact-box input:focus,
+.contact-box textarea:focus {
+    border-color: #ff9900;
+    outline: none;
+    box-shadow: 0 0 8px rgba(255,153,0,0.3);
+}
+
+/* ===== FILE INPUT ===== */
+.contact-box input[type="file"] {
+    background: #f7f7f7;
+    cursor: pointer;
+}
+
+/* ===== SUBMIT BUTTON ===== */
+.contact-box button {
+    width: 100%;
+    padding: 12px;
+    background: #ff9900;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-box button:hover {
+    background: #e68900;
+}
+
+/* ===== SUCCESS MESSAGE ===== */
+.contact-box p.success {
+    background: #e6f9ec;
+    color: #2e7d32;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Animated Glow Border */
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    inset: -3px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #ff9900, #232f3e, #ff9900);
+    background-size: 300% 300%;
+    animation: borderMove 6s linear infinite;
+    z-index: -1;
+    opacity: 0.25;
+}
+
+@keyframes borderMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
