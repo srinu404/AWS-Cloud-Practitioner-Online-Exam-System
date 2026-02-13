@@ -39,41 +39,65 @@ This is a web-based online examination system designed to simulate the AWS Cloud
 
 ## 📂 Folder Structure
 ```
-EXAM/
+AWS-Cloud-Practitioner-Exam-System/
 │
-├── admin/                     # Admin-related files
-│   ├── add_question.php       # Add new questions
-│   ├── admin_login.php        # Admin login
-│   ├── bulk_upload.php        # Bulk upload via CSV
-│   ├── delete_question.php    # Delete questions
-│   ├── edit_question.php      # Edit questions & options
-│   ├── logout.php             # Admin logout
-│   ├── manage_questions.php   # View & search questions
-│   ├── session_check.php      # Session timeout & security
-│   └── view_feedback.php      # View student feedback
+├── index.php                     # Main landing page
+├── student_dashboard.php         # Student options (Take Exam / Prepare)
+├── register.php                  # Student registration
+├── login.php                     # Student login
+├── logout.php                    # Student logout
+│
+├── exam.php                      # Exam interface with live proctor
+├── submit_exam.php               # Stores answers & results
+├── result.php                    # Shows attempt-wise results
+├── prepare.php                   # Study materials page
+├── contact.php                   # Feedback submission page
 │
 ├── config/
-│   └── db.php                 # Database connection
+│   └── db.php                    # Database connection
 │
 ├── css/
-│   └── style.css              # Global styles (responsive)
+│   └── style.css                 # Global styling
 │
 ├── js/
-│   └── timer.js               # Exam countdown timer
+│   └── timer.js                  # 90-minute countdown timer
 │
-├── uploads/                   # Uploaded PDFs (feedback)
+├── uploads/
+│   ├── study_materials/          # Uploaded PDFs by admin
+│   └── feedback_pdfs/            # PDFs uploaded by students
 │
-├── contact.php                # Contact & feedback page
-├── exam.php                   # Exam interface
-├── index.php                  # Home page
-├── login.php                  # Student login
-├── register.php               # Student registration
-├── result.php                 # Exam result & review
-├── submit_exam.php            # Exam submission logic
-├── result_logout.php          # Result page logout
-├── view_result.php            # View result after login
+├── admin/
+│   ├── admin_login.php
+│   ├── admin_register.php
+│   ├── logout.php
+│   │
+│   ├── manage_admins.php
+│   ├── edit_admin.php
+│   ├── delete_admin.php
+│   │
+│   ├── manage_students.php
+│   ├── edit_student.php
+│   ├── delete_student.php
+│   │
+│   ├── add_question.php
+│   ├── edit_question.php
+│   ├── delete_question.php
+│   ├── bulk_upload.php
+│   ├── manage_questions.php
+│   │
+│   ├── manage_materials.php
+│   ├── delete_material.php
+│   │
+│   ├── view_feedback.php
+│   ├── delete_feedback.php
+│   │
+│   ├── view_results.php
+│   └── view_student_result.php
 │
-└── README.md                  # Project documentation
+└── database/
+    └── aws_exam.sql              # Complete database backup
+
+
 ```
 
 ## 🔐 Security
@@ -97,4 +121,6 @@ Launch the Instance
 
   https://awsexam.us.cc
 
-  
+#**Screenshot's**
+
+
